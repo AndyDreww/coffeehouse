@@ -1,0 +1,228 @@
+.drinks h2, main h2 {
+  color: #9300e0;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+nav {
+  background: #9300e0;
+}
+nav .active {
+  font-weight: 900;
+}
+nav li a {
+  font-size: 20px;
+  letter-spacing: 0.15rem;
+}
+nav li a:hover {
+  color: #e3e3e3;
+  background-color: #640299;
+  font-weight: 900;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 15px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+header .display-4 {
+  font-family: "Lobster", display;
+  font-weight: 900;
+  font-size: 90px;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+}
+header .container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+header .jumbotron {
+  background: url("imgs/coffee.jpg") center center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+header .lead {
+  font-size: 25px;
+  letter-spacing: 0.5rem;
+}
+
+main #aside {
+  margin-bottom: 20px;
+}
+main img {
+  width: 100%;
+  max-width: 550px;
+}
+main h3 {
+  font-weight: 900;
+}
+main table {
+  margin: 0 auto;
+}
+main table .drink-type {
+  background: #e3e3e3;
+  padding: 5px 0;
+}
+main table .drink {
+  border-right: 1px solid #000;
+}
+main table th {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+main table td {
+  padding: 7px;
+  text-align: center;
+}
+main table thead {
+  border-bottom: 2px solid #000;
+}
+main table .price {
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+.drinks {
+  background: url("imgs/coffee-pour.jpg") #640299;
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.drinks .drinks-text {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  width: 50%;
+  margin: 40px auto;
+}
+.drinks .drinks-header {
+  background: #fff;
+  margin-top: 50px;
+  width: 100%;
+}
+.drinks button {
+  background-color: #fff;
+  color: #333;
+  font-weight: 900;
+  border-radius: 5px;
+  border: 1px solid #9236c4;
+  padding: 10px 30px;
+}
+.drinks button:hover {
+  transition: 1s;
+  color: #fff;
+  background-color: #9236c4;
+}
+#about {
+  background: url("imgs/man.jpg") #640299;
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 400px;
+  font-size: 18px;
+}
+#about .about-text {
+  background-color: #fff;
+  padding: 20px;
+}
+#about h2 {
+  margin: 40px 0;
+}
+
+.text-box {
+  padding: 30px;
+}
+
+.social-media-box {
+  margin-top: 20px;
+}
+.social-media-box i {
+  font-size: 45px;
+  color: #333;
+}
+.social-media-box i:hover {
+  opacity: 0.4;
+  color: #9300e0;
+}
+.social-media-box a:hover {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 20px;
+  background: #e3e3e3;
+}
+footer img {
+  float: left;
+  border-radius: 50px;
+}
+footer p {
+  margin: 0;
+}
+footer .footer-title {
+  font-weight: 900;
+  font-size: 20px;
+}
+footer .copyright {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  #about {
+    height: 600px;
+  }
+
+  .drinks {
+    background-size: cover;
+    background-position-x: -60px;
+    height: 600px;
+  }
+
+  .drinks-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #about {
+    font-size: 14px;
+    background-size: cover;
+  }
+  #about .about-text {
+    padding: 10px;
+    line-height: 1.5rem;
+  }
+
+  footer img {
+    float: none;
+    width: 70px;
+  }
+
+  .social-media-box {
+    margin: 0;
+  }
+
+  .drinks {
+    height: 550px;
+  }
+  .drinks .drinks-text {
+    margin: 20px auto;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
